@@ -4,12 +4,28 @@
 
 from atproto import Client
 import feedparser
-feed = feedparser.parse("https://status.cafe/users/your statuscafe username.atom")
+client = Client()
+
+# important stuff
+feed = feedparser.parse("https://status.cafe/users/username.atom") # replace "username" with your status.cafe username
+client.login('handle', 'password') # replace handle and password with your bsky handle and password
+
 entry = feed.entries[0]
 postentry = entry.summary
-print('Latest entry on status cafe:', postentry)
+pubdate = entry.published
 
-client = Client()
-client.login('your handle', 'your password')
 
-post = client.send_post("[status.cafe] " + postentry)
+print('Your last entry on status.cafe: "', postentry, '" ', "\nYou submitted it specifically on", entry.published)
+yn = input("\nWould you like to post the above status to bluesky? (y/n) ")
+if yn == "y":
+    post = client.send_post("[status.cafe] " + postentry)
+    print("\nPosted!")
+elif yn == "n":
+    print("\nAborted")
+else:
+    print("\nInvalid choice, presuming no.")
+    print("Have a nice day!")
+
+
+
+
