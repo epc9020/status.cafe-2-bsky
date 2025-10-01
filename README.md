@@ -5,6 +5,7 @@ currently, you need to manually run the script for this to actually do anything.
 in a future iteration i may either do two things:
 - make this into an automated thing, where every time you update your status.cafe, it automatically posts it to your bluesky
 - somehow integrate this into status.cafe itself through a means, where everytime you update your status.cafe, it asks if you'd want to post it to bluesky too, giving you a choice
+
 the more i think about it, wouldnt i need to integrate into the damn thing both ways anyways? i dont know, i havent figured it out yet ¯\\\_(ツ)_/¯
 
 ## requirements
