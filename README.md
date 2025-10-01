@@ -23,9 +23,9 @@ you may need some python libs to make this actually work. fortunately installing
 
 ## how to use
 1. open the script in a text editor and replace placeholder text with your own information
-- your status.cafe username goes into "your statuscafe username",
-- your bluesky handle goes into "your handle"
-- your bluesky password goes into "your password"
+- your status.cafe username goes into "username",
+- your bluesky handle goes into "handle"
+- your bluesky password goes into "password"
 2. run the script on your computer
 
 ## to do
