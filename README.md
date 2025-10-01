@@ -7,6 +7,18 @@ in a future iteration i may make this into a more automated thing, so that you w
 ## requirements
 have python installed on your computer i think...
 
+python libraries
+---
+you may need some python libs to make this actually work. fortunately installing these is easy:
+
+1. open your terminal
+2. type in the following:
+   ```
+   pip install atproto
+   pip install feedparser
+   ```
+3. breathe air or something i dunno
+
 ## how to use
 1. replace placeholder text with your own information
 - your status.cafe username goes into "your statuscafe username",
