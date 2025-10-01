@@ -2,7 +2,9 @@
 Simple python script that uploads the latest entry in a status.cafe (ie, your status.cafe) atom feed to bluesky.
 
 currently, you need to manually run the script for this to actually do anything. 
-in a future iteration i may make this into a more automated thing, so that you wont even have to think about it!
+in a future iteration i may either do two things:
+- make this into an automated thing, where every time you update your status.cafe, it automatically posts it to your bluesky
+- somehow integrate this into status.cafe itself through a means, where everytime you update your status.cafe, it asks if you'd want to post it to bluesky too, giving you a choice
 
 ## requirements
 have python installed on your computer i think...
