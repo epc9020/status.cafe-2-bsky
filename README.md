@@ -9,7 +9,7 @@ have python installed on your computer i think...
 
 python libraries
 ---
-you may need some python libs to make this actually work. fortunately installing these is easy:
+you may need some python libs to make this actually work. fortunately installing them is easyg:
 
 1. open your terminal
 2. type in the following:
@@ -20,10 +20,10 @@ you may need some python libs to make this actually work. fortunately installing
 3. breathe air or something i dunno
 
 ## how to use
-1. replace placeholder text with your own information
+1. open the script in a text editor and replace placeholder text with your own information
 - your status.cafe username goes into "your statuscafe username",
 - your bluesky handle goes into "your handle"
-- your password goes into "your password"
+- your bluesky password goes into "your password"
 2. run the script on your computer
 
 ## to do
