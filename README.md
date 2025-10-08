@@ -31,5 +31,6 @@ you may need some python libs to make this actually work. fortunately installing
 2. run the script on your computer
 
 ## to do
+- **priority**: figure out how to handle accounts that have 2FA setup
 - figure out how to make links parse out correctly for bsky posts instead of it being spit out as a raw html `<a></a>`
 - make process more automated, and in turn convinient, by possibly making a browser extention (i think there was an existing one that you can have custom scripts run for certain websites), or hell, just talking with the status.cafe devs on how to officially implement it into the thingy (it most likely will be the former)
